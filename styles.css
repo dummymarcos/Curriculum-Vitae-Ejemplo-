@@ -1,26 +1,26 @@
-h1 {
-    font-size: 1.8em;
-}
-
-h4 {
-    font-size: 1.4em;
-}
-
-h5 {
-    font-size: 1.3em;
+* {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 1px transparent;
 }
 
 h6 {
     font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
     font-size: 1.1em;
     font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li {
-    font-weight: bold;
+    font-weight: normal;
+}
+
+#infopersonal li {
+    font-weight: 500;
+    font-size: 1.09em;
 }
 
 aside {
