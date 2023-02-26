@@ -3,6 +3,15 @@
     text-shadow: 0 0 1px transparent;
 }
 
+body {
+    background-image: url(simple-home-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo {width: 11.25rem;
+        height: 11.25rem;}
+
 h6 {
     font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,21 +25,12 @@ p {
 
 li {
     font-weight: normal;
+    line-height: 1.5;
 }
 
 #infopersonal li {
     font-weight: 500;
     font-size: 1.09em;
-}
-
-aside {
-    background-color: grey;
-    height:100%;
-}
-
-main {
-    background-color: antiquewhite;
-    height:100%;
 }
 
 div.text-container {
@@ -53,6 +53,34 @@ div.text-container {
 }
 
 .show-more {
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
+
+.stylinginformation {
+    background-color: rgba(255, 255, 255, 0.7); /* white with 50% opacity */
+    padding: 10px; /* add padding for spacing between text and background */
+    border-radius: 5px; /* add rounded corners to create square appearance */
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+:root {
+    --animate-duration: 100ms;
+  }
+
+  /*button:hover {
+    -webkit-animation: shake 1s;
+    animation: shake 1s;
+}*/
