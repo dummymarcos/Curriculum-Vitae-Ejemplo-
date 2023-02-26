@@ -16,6 +16,7 @@ p {
 
 li {
     font-weight: normal;
+    line-height: 1.5;
 }
 
 #infopersonal li {
@@ -55,4 +56,10 @@ div.text-container {
 .show-more {
     padding: 10px 0;
     text-align: center;
+}
+
+.stylinginformation {
+    background-color: rgba(255, 255, 255, 0.5); /* white with 50% opacity */
+    padding: 10px; /* add padding for spacing between text and background */
+    border-radius: 5px; /* add rounded corners to create square appearance */
 }

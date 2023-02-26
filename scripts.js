@@ -1,19 +1,16 @@
-$(document).ready(function() {  
-    
-    $(".show-more button").on("click", function() {
+$(document).ready(function() {
+    $(".show-more").on("click", function() {
         var $this = $(this); 
-        var $content = $("#hidden");
-        var linkText = $this.text();    
+        var target = $this.data("target");
+        var $content = $(target);
+        var originalText = $this.data("text");    
 
-        
-        if(linkText === "Show more"){
-            linkText = "Show less";
+        if($this.text() === originalText){
+            $this.text("Mostrar menos");
             $content.toggleClass("hideContent showContent");
         } else {
-            linkText = "Show more";
+            $this.text(originalText);
             $content.toggleClass("showContent hideContent");
         };
-    
-        $this.text(linkText);
     });
 });
